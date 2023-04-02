@@ -8,9 +8,6 @@ use riscv as _;
 use ch32v0::ch32v003 as pac;
 
 #[no_mangle]
-fn default_start_trap() {
-
-}
 
 #[entry]
 fn main() -> ! {
