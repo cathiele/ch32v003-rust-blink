@@ -2,6 +2,9 @@
 
 Based on https://github.com/ch32-rs/ch32v203-demo/
 
+At the moment this needs a custom rust toolchain that supports R32EC.
+
+
 ```shell
 
 cargo build -Zbuild-std=core --release
