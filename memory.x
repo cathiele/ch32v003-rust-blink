@@ -1,10 +1,12 @@
 /* CH32V003 */
+_hart_stack_size = 1K;
+
 MEMORY
 {
     /* Code Flash, 16KB max */
 	FLASH : ORIGIN = 0x08000000, LENGTH = 16k
     /* SRAM, 2KB max */
-	RAM : ORIGIN = 0x20000000, LENGTH = 4k
+	RAM : ORIGIN = 0x20000000, LENGTH = 2k
 }
 
 REGION_ALIAS("REGION_TEXT", FLASH);
