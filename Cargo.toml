@@ -1,0 +1,15 @@
+[package]
+name = "ch32v203-rust-blink"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ch32v0 = { version="0.1.6", features = [
+    "ch32v003",
+    "critical-section",
+] }
+
+riscv = { version = "0.10.0", features = ["critical-section-single-hart"] }
+riscv-rt = "0.11"
+panic-halt = "0.2.0"
+
