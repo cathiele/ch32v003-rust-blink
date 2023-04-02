@@ -2,7 +2,7 @@
 
 Based on https://github.com/ch32-rs/ch32v203-demo/
 
-At the moment this needs a [custom rust toolchain](documentation/toolchain.md) that supports R32EC.
+At the moment this needs a [custom rust toolchain](documentation/toolchain.md) that supports RV32EC.
 
 
 ```shell
